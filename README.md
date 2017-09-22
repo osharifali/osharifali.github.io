@@ -1,0 +1,1 @@
+This project is the personal website for Omar Sharifali.

@@ -12,19 +12,19 @@
 
 
 		<!-- Css -->
-        <link href="./files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-		<link href="./files/magnific-popup.css" type="text/css" rel="stylesheet" media="all">
-		<link href="./files/font.css" rel="stylesheet" type="text/css" media="all">
-		<link href="./files/base.css" rel="stylesheet" type="text/css" media="all">
-		<link href="./files/main.css" rel="stylesheet" type="text/css" media="all">
-		<link href="./files/owl.carousel.css" rel="stylesheet" media="all">
-		<link href="./files/owl.theme.css" rel="stylesheet" media="all">
+        <link href="./css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<link href="./css/magnific-popup.css" type="text/css" rel="stylesheet" media="all">
+		<link href="./css/font.css" rel="stylesheet" type="text/css" media="all">
+		<link href="./css/base.css" rel="stylesheet" type="text/css" media="all">
+		<link href="./css/main.css" rel="stylesheet" type="text/css" media="all">
+		<link href="./css/owl.carousel.css" rel="stylesheet" media="all">
+		<link href="./css/owl.theme.css" rel="stylesheet" media="all">
 
-    <script type="text/javascript" charset="UTF-8" src="./files/common.js" style=""></script><script type="text/javascript" charset="UTF-8" src="./files/map.js"></script><script type="text/javascript" charset="UTF-8" src="./files/util.js"></script><script type="text/javascript" charset="UTF-8" src="./files/marker.js"></script><style type="text/css">.gm-style {
+    <script type="text/javascript" charset="UTF-8" src="./js/common.js" style=""></script><script type="text/javascript" charset="UTF-8" src="./js/map.js"></script><script type="text/javascript" charset="UTF-8" src="./js/util.js"></script><script type="text/javascript" charset="UTF-8" src="./js/marker.js"></script><style type="text/css">.gm-style {
         font: 400 11px Roboto, Arial, sans-serif;
         text-decoration: none;
       }
-      .gm-style img { max-width: none; }</style><script type="text/javascript" charset="UTF-8" src="./files/onion.js"></script><script type="text/javascript" charset="UTF-8" src="./files/controls.js"></script><script type="text/javascript" charset="UTF-8" src="./files/stats.js"></script></head>
+      .gm-style img { max-width: none; }</style><script type="text/javascript" charset="UTF-8" src="./js/onion.js"></script><script type="text/javascript" charset="UTF-8" src="./js/controls.js"></script><script type="text/javascript" charset="UTF-8" src="./js/stats.js"></script></head>
     <body>
     
 <!-- Preloader -->
@@ -58,7 +58,7 @@
 		<div class="block-content ">
 			
 			
-			<div class="block-teaser block-background-image medium overlay" data-background="files/img/background.jpg" style="background-image: url(&quot;img/teaser/1.jpg&quot;);">
+			<div class="block-teaser block-background-image medium overlay" data-background="./img/background.jpg" style="background-image: url(&quot;img/teaser/1.jpg&quot;);">
 				
 					<!--Container-->
 					<div class="container ">
@@ -139,7 +139,7 @@
 					<div class="col-sm-2 pd-0 t-center">
 
 						<div class="img-profile">
-							<img src="./files/img/profile.png" alt="">
+							<img src="./img/profile.png" alt="">
 						</div>
 						
 						<div class="name-profile">
@@ -733,9 +733,11 @@ Projects<br>
 												<div class="block-filter mb-50">
 												<ul class="filter">
 													<li><a class="active" href="http://www.osharifali.me/#" data-filter="all">All</a></li>
-													<li><a href="http://www.osharifali.me/#" data-filter="web">Web Design</a></li>
-													<li><a href="http://www.osharifali.me/#" data-filter="graphic">Graphic Design</a></li>
-													<li><a href="http://www.osharifali.me/#" data-filter="motion">Motion Graphic</a></li>
+													<li><a data-filter="apps">Mobile Apps</a></li>
+													<li><a data-filter="cv">Computer Vision</a></li>
+                                                    <li><a data-filter="ml">Machine Learning</a></li>
+													<li><a data-filter="design">Design</a></li>
+                                                    <li><a data-filter="data">Data Science</a></li>
 											</ul>
 
 											</div>
@@ -751,15 +753,15 @@ Projects<br>
 												
 												<div class="col-md-3 col-sm-6  masonry item-block" style="position: absolute; left: 0px; top: 0px;">
 													
-													<div class="item web">
+													<div class="item apps">
 													<a href="http://www.osharifali.me/project_single.html">
 														<div class="desc">
-														<span>in web design</span>
-														<h5>Project Name</h5>
+														<span>in Mobile Apps</span>
+														<h5>Backseat DJ</h5>
 														
 														</div>
 												
-												<img src="./files/img/1(1).jpg" alt="">
+												<img src="./img/backseatdj.png" alt="">
 												</a>
 												
 												</div>
@@ -767,15 +769,15 @@ Projects<br>
 																								
 												<div class="col-md-3 col-sm-6  masonry item-block" style="position: absolute; left: 292px; top: 0px;">
 
-													<div class=" item web ">
-													<a href="./files/img/2(1).jpg" class="popup">
+													<div class=" item cv ">
+													<a href="./img/ocr.png" class="popup">
 														<div class="desc">
-														<span>in web design</span>
-														<h5>Project Name</h5>
+														<span>in Comptuer Vision</span>
+														<h5>Driver's License Text Extraction</h5>
 														
 														</div>
 
-												<img src="./files/img/2(1).jpg" alt="">
+												<img src="./img/ocr.png" alt="">
 												</a>
 
 												</div>
@@ -784,15 +786,15 @@ Projects<br>
 												
 												<div class="col-md-3 col-sm-6  masonry item-block" style="position: absolute; left: 585px; top: 0px;">
 
-													<div class=" item graphic">
-													<a href="./files/img/3(1).jpg" class="popup">
+													<div class=" item apps">
+													<a href="./img/handwriting.png" class="popup">
 														<div class="desc">
-														<span>in graphic design</span>
-														<h5>Project Name</h5>
+														<span>in Mobile Apps</span>
+														<h5>Handwriting Recognition Cart</h5>
 														
 														</div>
 
-												<img src="./files/img/3(1).jpg" alt="">
+												<img src="./img/handwriting.png" alt="">
 												</a>
 
 												</div>
@@ -802,15 +804,15 @@ Projects<br>
 										
 											<div class="col-md-3 col-sm-6  masonry item-block" style="position: absolute; left: 877px; top: 0px;">
 
-												<div class=" item graphic">
-												<a href="./files/img/4(1).jpg" class="popup">
+												<div class=" item ml">
+												<a href="./img/Flappy.png" class="popup">
 													<div class="desc graphic">
-													<span>in graphic design</span>
-													<h5>Project Name</h5>
+													<span>in Machine Learning</span>
+													<h5>Flappy Bird Agent</h5>
 													
 													</div>
 
-											<img src="./files/4(1).jpg" alt="">
+											<img src="./img/Flappy.png" alt="">
 											</a>
 
 											</div>
@@ -819,15 +821,15 @@ Projects<br>
 											
 												<div class="col-md-3 col-sm-6 masonry item-block" style="position: absolute; left: 292px; top: 211px;">
 
-													<div class=" item graphic">
-													<a href="./files/img/5(1).jpg" class="popup">
+													<div class=" item data">
+													<a href="./img/cfb.png" class="popup">
 														<div class="desc">
 														<span>in graphic design</span>
 														<h5>Project Name</h5>
 														
 														</div>
 
-												<img src="./files/img/5(1).jpg" alt="">
+												<img src="./img/cfb.png" alt="">
 												</a>
 
 												</div>
@@ -837,15 +839,15 @@ Projects<br>
 												
 											<div class="col-md-3 col-sm-6 masonry item-block" style="position: absolute; left: 0px; top: 420px;">
 
-												<div class=" item web">
-												<a href="./files/img/6.jpg" class="popup">
+												<div class=" item design">
+												<a href="./img/tiles.png" class="popup">
 													<div class="desc">
-													<span>in web design</span>
-													<h5>Project Name</h5>
+													<span>in Design</span>
+													<h5>Tile Theme</h5>
 													
 													</div>
 
-											<img src="./files/img/6.jpg" alt="">
+											<img src="./img/tiles.png" alt="">
 											</a>
 
 											</div>
@@ -854,18 +856,18 @@ Projects<br>
 											
 												<div class="col-md-3 col-sm-6 masonry item-block" style="position: absolute; left: 585px; top: 420px;">
 
-													<div class=" item motion">
-													<a class="popup-vimeo" href="https://vimeo.com/67429593">
-														<div class="desc">
-														<span>in motion design</span>
-														<h5>Project Name</h5>
-														
-														</div>
+													<div class=" item design">
+                                                    <a href="./img/tiles.png" class="popup">
+                                                        <div class="desc">
+                                                        <span>in Design</span>
+                                                        <h5>Tile Theme</h5>
 
-												<img src="./files/img/7.jpg" alt="">
-												</a>
+                                                        </div>
 
-												</div>
+                                                <img src="./img/tiles.png" alt="">
+                                                </a>
+
+                                                </div>
 												</div>
 											
 													<div class="col-md-3 col-sm-6 masonry item-block" style="position: absolute; left: 877px; top: 420px;">
@@ -878,7 +880,7 @@ Projects<br>
 															
 															</div>
 
-													<img src="./files/img/9.jpg" alt="">
+													<img src="./img/9.jpg" alt="">
 													</a>
 
 													</div>
@@ -895,7 +897,7 @@ Projects<br>
 																
 																</div>
 
-														<img src="./files/img/10.jpg" alt="">
+														<img src="./img/10.jpg" alt="">
 														</a>
 
 														</div>
@@ -1057,10 +1059,7 @@ Projects<br>
 								
 				<ul class="socials round pb-20">
 					
-					<li><a href="http://www.osharifali.me/#"><i class="icon-facebook-circled"></i><span>Facebook</span></a></li>
-					<li><a href="http://www.osharifali.me/#"><i class="icon-twitter-circled"></i><span>Twitter</span></a></li>
-					<li><a href="http://www.osharifali.me/#"><i class="icon-linkedin-circled"></i><span>Linkedin</span></a></li>
-					<li><a href="http://www.osharifali.me/#"><i class="icon-dribbble-circled"></i><span>Dribbble</span></a></li>
+					<li><a href="https://www.linkedin.com/in/osharifali/"><i class="icon-linkedin-circled"></i><span>Linkedin</span></a></li>
 			</ul>
 			
 			<hr>
